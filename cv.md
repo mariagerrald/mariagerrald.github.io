@@ -2,7 +2,7 @@
 layout: page
 title: CV
 permalink: /cv/
-weight: 2
+weight: 3
 ---
 
 ## Utbildningar
