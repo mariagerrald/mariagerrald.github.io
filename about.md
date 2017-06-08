@@ -13,7 +13,7 @@ Jag är en ny utvecklare med fokus på geografiska informationssystem (GIS), Mic
 
 - <a href="https://skyddsvarda-trad-jkpg.surge.sh/" target="_blank">Skyddsvärda träd</a>  
 <!--(provide link to site and to github code)  -->
-Sökbar, interaktiv kartapplikation som visar skyddsvärda träd i Jönköpings län.  Web-sida skapad med Leaflet kartbibliotek och Javascript /jQuery.  Hämtar data om träd genom REST API selekteringar från Länsstyrelsens ArcGIS WMS server,
+Sökbar, interaktiv kartapplikation som visar skyddsvärda träd i Jönköpings län.  Web-sida skapad med Leaflet kartbibliotek och Javascript /jQuery.  Hämtar data om träd genom REST API query från Länsstyrelsens ArcGIS WMS server,
 - <a href="https://github.com/marigerr/TreesWebAPI/tree/master/BigTrees" target="_blank">Web API Skyddvärda Träd</a>  
 Fullstack version av Skyddsvärda träd app.  För detta exporterade jag träd shapefile till en SQL databas med verktyget ogr2ogr.  Sedan byggde jag API med Asp.Net WebApi2.  Kartappen är ännu inte online men koden finns åtkomlig för granskning på github.   
 - <a href="http://chicken-stats-2005-2016-se.surge.sh/" target="_blank">Chickens Stats in Sweden 2005-2016</a>  
