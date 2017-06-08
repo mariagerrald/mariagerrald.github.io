@@ -2,6 +2,7 @@
 layout: page
 title: CV
 permalink: /cv/
+weight: 2
 ---
 
 ## Utbildningar
@@ -14,7 +15,7 @@ Undervisning och projektarbete med ASP.NET MVC 5, C #, Java, jQuery, Ajax, CSS, 
 # GIS: Geografiska informationssystem  
 Lunds Universitet  GISA21 15 ECTS     
 2014 sept - 2014 dec  
-ArcGIS kurs. Analys av geografiska data i raster och vektor form samt kartografisk och grafisk presentation av digitalt kartmaterial och tillämpningarna.
+ArcGIS kurs. Analys av geografiska data i raster och vektor form samt kartografisk och grafisk presentation av digitalt kartmaterial och tillämpningarna.  Geografisk projektion. 
  
 # Svenska som Andraspråk 1 (gymnasie nivå svenska)
 InfoKomp 
@@ -36,11 +37,8 @@ Utbildningen motsvarar Kandidatexamen som är inriktad mot biologi med tyngdpunk
 #### Cube Corner AB                                   
 Jönköping SE    
 2016 juni - dec 2016  
-Improving application using javascript, jquery, postgresql
-Programming in VBA excel connecting to äffarsystem
-Programing in SQL
-Crystal Reports
-XML
+- Arbetade med att förbättra webbplattform för logistik / hantering av leveranser.  Bidrog till förändringar i både front end i Javscript och jQuery samt back end kodning i C# och PostgreSQL stored procedures    
+- Andra projekt omfattade programmering i Visual Basic for Applications (VBA) för att exportera data till Excelfiler från affärssystemet Jeeves. Kodade SQL stored procedures för att exportera  data till och design rapporter med Crystal Reports. 
  
 ### Backoffice / Kundtjänst
 #### Symetra Financial

@@ -7,22 +7,13 @@ categories: GIS
 
 [ogr2ogr](http://www.gdal.org/ogr2ogr.html) is a binary that comes with Qgis that can be used to convert simple features data between file formats.  OGR stands for OpenGIS Simple Features Reference Implementation.
 
-I had a downloaded open geodata as a shapefile.  I wanted to be able to use the data in a webmap but didn't have a arcgis server.   So instead I decided to import the shapefile data into sql and create a .Net webapi to query the database. ogr2ogr made it extremely easy to import a shapefile into sql.
+I had a downloaded some open geodata as a shapefile.  I wanted to be able to use the data in a webmap but didn't have a arcgis server.   I decided to import the shapefile data into sql and create a .Net webapi to query the database. ogr2ogr made it extremely easy to import a shapefile into sql.
 
-I first simple created an empty database in MsSql server.
+After creating a empty database in MsSql server, I used the ogr2ogr conversion command from [Coderwall- Importing a shapefile into sql server](https://coderwall.com/p/v_nrig/importing-a-shapefile-into-sql-server-2012)
 
-I found the command for the conversion
 
 {% highlight ruby %}
 "C:\<location of ogr2ogr>\ogr2ogr.exe" -overwrite -f MSSQLSpatial "MSSQL:server=<database server name>;database=<database name>;trusted_connection=yes" "C:\<path to shapefile>\<Shapefile>.shp"  -lco UPLOAD_GEOM_FORMAT=wkt
 {% endhighlight %}
 
-
-Example
-{% highlight ruby %}
-"C:\Program Files\QGIS 2.18\bin\ogr2ogr.exe" -f MSSQLSpatial "MSSQL:server=Vadstena;database=BigTrees;trusted_connection=yes" "C:\MariaTempMainFolder\GisProjects\Data\ProtectedTreesJKPG\OriginalData\miljoovervakning_skyddstrad_flan_alla.shp" -lco UPLOAD_GEOM_FORMAT=wkt
-{% endhighlight %}
-
-References
-- [Coderwall- Importing a shapefile into sql server](https://coderwall.com/p/v_nrig/importing-a-shapefile-into-sql-server-2012)
 

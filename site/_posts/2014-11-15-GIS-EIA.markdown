@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Challenges of Using GIS for Environmental Assessments"
+date:   2014-11-15 18:27:57 +0200
+categories: GIS ArcGis
+---
+
+<!--
+### Challenges of Using GIS for <br> Environmental Impact Assessments (EA) 
+{: style="text-align: center;"}-->
+ 
+_This is an excerpt from a paper written for GIS A21 Intro to GIS - Lund University_  
+
+<!--There have been and still exist several challenges in the implementation of GIS in environmental impact assessments.    A fundamental challenge was the costs of hardware and for software licenses.  Hardware costs have fortunately decreased over the years as computers have gotten faster and less expensive.  There are also free open source alternatives to purchasing ArcGis licenses.  GIS also requires trained personnel.   But this obstacle has also gotten better as software has gotten easier to use and GIS knowledge is becoming more widespread.  -->
+
+<!--{: style="line-height: 195%;"}-->
+An area of challenges is in spatial data management.  There are several requirements in order for spatial data to be used effectively and efficiently in GIS.  GIS requires good quality spatially referenced digital data.  According to Gonzalez<sup style="font-size:9px"> 1 </sup> there are significant gaps in geo-referenced information throughout Europe.  Potential data sources need to be identified and the data acquired.   If it has not already been collected, then fieldwork must be done.   Existing data may be in different formats and needs to be converted.  There are costs associated with acquiring data, digitizing, conversion, and any additional field work.   Another factor that hinders availability is that data may have been captured/created by the private sector but then not published.  This renders the data essentially non-existent because it isn’t known and available for others to use.  Related to this problem of availability is accessibility.  Data sets may be known to exist, but it may not be available for use due to variety of reasons including copyright or privacy. 
+ 
+Another challenge with spatial data is standards.  Different european countries use different reference systems which can create overlay errors even after the data is transformed.   There is also differences in how attribute data and metadata are recorded.  When there is no standards of defining attribute data, it is time consuming and difficult to interpret and merge data sets.  Missing or incomplete/nonstandard metadata also makes it difficult to find Data sets and determine their quality and useability.
+ 
+The EU INSPIRE directive is helping to overcome some of these spatial data challenges. Created in 2007, INSPIRE aims to create an EU spatial data infrastructure.  According to [inspire.ec.europa.eu](http://inspire.ec.europa.eu/inspire-principles/9) the driving principles are:
+ 
+- Data should be collected only once and kept where it can be maintained most effectively.
+- It should be possible to combine seamless spatial information from different sources across Europe and share it with many users and applications.
+- It should be possible for information collected at one level/scale to be shared with all levels/scales; detailed for thorough investigations, general for strategic purposes.
+- Geographic information needed for good governance at all levels should be readily and transparently available.
+- Easy to find what geographic information is available, how it can be used to meet a particular need, and under which conditions it can be acquired and used.
+   
+Lastly another barrier in fully implementing GIS in EAs is taking advantage of advanced GIS modeling and analysis.  Modeling requires detailed knowledge of the variables used in the model and their ecological significance for the modelled species.  It is also difficult to validate models.  EA are often written by smaller environmental consulting firms on strict budgets who may be reluctant to spend manhours on advanced models that aren’t widely understood.  Gonzalez<sup style="font-size:9px"> 1 </sup>  asserts that it may be a long time if not impossible for widespread use of advanced modeling techniques because they “cannot be systematically applied to the wide range of issues considered, commonly incorporate multiple and complex assumptions that may affect the public understanding of outcomes and there is a general lack of favourable institutional standpoints to anticipate future changes.”   
+
+<!--There is clearly remaining challenges to try bridge the gap between modeling research and use in EA.-->
+
+
+<span style="font-size:12px"> 1. González, A(2011). GIS in Environmental Assessment: A Review of Current Issues and Future Needs.  Journal of Environmental Assessment Policy and Management, 14(1): 1250007 (23 pages)</span>
