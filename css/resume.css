@@ -1,12 +1,7 @@
-/*!
- * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96; }
+  color: #495057; }
 
 @media (min-width: 992px) {
   body {
@@ -108,6 +103,9 @@ section.resume-section {
 
 .text-primary {
   color: #BD5D38 !important; }
+
+.text-danger {
+  color: #8D320E !important; }
 
 a {
   color: #BD5D38; }

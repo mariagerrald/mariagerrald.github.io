@@ -6,6 +6,10 @@
   color: $primary !important;
 }
 
+.text-danger {
+  color: $danger !important;
+}
+
 a {
   color: $primary;
   &:hover,
