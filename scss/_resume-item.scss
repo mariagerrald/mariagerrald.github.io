@@ -26,3 +26,16 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+
+@keyframes example {
+  0%   {color: #8D320E;}
+  50%  {color: rgb(206, 86, 86);}
+  // 75%  {color: #8D320E;}
+  100%   {color: #8D320E;}
+}
+
+#sleeping-server-warning {
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;  
+}
